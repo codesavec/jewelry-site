@@ -26,6 +26,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+
+      const apiurl = process.env.NEXT_PUBLIC_API_URL;
+      console.log("API URL:", apiurl);
+
 export default function JobApplicationPage() {
   const router = useRouter();
   const params = useParams(); // Unwrap params using useParams
@@ -75,12 +79,12 @@ export default function JobApplicationPage() {
           formDataToSend.append(key, value as Blob | string);
         }
       });
-
-      const response = await fetch(`${process.env.api_url}/send-dets`, {
+      const response = await fetch(`${apiurl}/send-dets`, {
         method: "POST",
         body: formDataToSend,
       });
 
+      console.log(response)
       await new Promise((resolve) => setTimeout(resolve, 1500));
 
       // Success - redirect to thank you page
