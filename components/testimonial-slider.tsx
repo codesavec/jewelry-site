@@ -12,15 +12,15 @@ export default function TestimonialSlider() {
       id: 1,
       quote:
         "The craftsmanship of my engagement ring is absolutely stunning. Every detail was perfectly executed, and the customer service was exceptional.",
-      author: "Micheal Sharp",
+      author: "Sarah Johnson",
       role: "Customer",
       image: "/placeholder.svg?height=200&width=200",
     },
     {
       id: 2,
       quote:
-        "I've been collecting pieces from Elegant Jewelries for years. Their attention to detail and quality is unmatched in the industry.",
-      author: "James Miller",
+        "I've been collecting pieces from Elegance Jewelry for years. Their attention to detail and quality is unmatched in the industry.",
+      author: "Michael Chen",
       role: "Collector",
       image: "/placeholder.svg?height=200&width=200",
     },
@@ -28,7 +28,7 @@ export default function TestimonialSlider() {
       id: 3,
       quote:
         "The custom necklace they created for my anniversary exceeded all expectations. It's become a cherished family heirloom.",
-      author: "Sam Johnson",
+      author: "Emily Rodriguez",
       role: "Customer",
       image: "/placeholder.svg?height=200&width=200",
     },
@@ -50,7 +50,7 @@ export default function TestimonialSlider() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>
           <p className="text-neutral-600 max-w-2xl mx-auto">
-            Discover why our clients choose Elegant Jewelries for their most precious moments.
+            Discover why our clients choose Elegance Jewelry for their most precious moments.
           </p>
         </div>
 

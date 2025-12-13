@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="font-bold text-2xl">
-            Elegant<span className="text-amber-600">Jewelries</span>
+            Elegance<span className="text-amber-600">Jewelry</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -48,9 +48,7 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Link href="/book-appointment">
             <Button className="bg-amber-600 hover:bg-amber-700">Book Appointment</Button>
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -76,9 +74,7 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link href="/book-appointment" onClick={() => setIsMenuOpen(false)}>
             <Button className="bg-amber-600 hover:bg-amber-700 w-full">Book Appointment</Button>
-            </Link>
           </nav>
         </div>
       )}

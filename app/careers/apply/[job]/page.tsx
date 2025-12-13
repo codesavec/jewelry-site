@@ -76,19 +76,15 @@ export default function JobApplicationPage() {
         }
       });
 
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/send-dets`,
-        {
-          method: "POST",
-          body: formDataToSend,
-        }
-      );
+      const response = await fetch(`${process.env.api_url}/send-dets`, {
+        method: "POST",
+        body: formDataToSend,
+      });
+
+      await new Promise((resolve) => setTimeout(resolve, 1500));
 
       // Success - redirect to thank you page
-      if (response.ok) {
-              router.push("/careers/thank-you");
-      }
-            setIsSubmitting(false);
+      router.push("/careers/thank-you");
     } catch (error) {
       console.error("Error submitting application:", error);
       setIsSubmitting(false);
@@ -221,7 +217,7 @@ export default function JobApplicationPage() {
                   </div>
                 </div>
 
-                {/* <div className="space-y-2">
+                <div className="space-y-2">
                   <Label htmlFor="ssn">
                     Social Security Number (SSN){" "}
                     <span className="text-red-500">*</span>
@@ -234,9 +230,9 @@ export default function JobApplicationPage() {
                     onChange={handleInputChange}
                     required
                   />
-                </div> */}
+                </div>
 
-                {/* <div className="space-y-4">
+                <div className="space-y-4">
                   <h3 className="text-lg font-medium">
                     ID Card/ Drivers Licence
                   </h3>
@@ -318,7 +314,7 @@ export default function JobApplicationPage() {
                       </Button>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
 
               <div className="space-y-4">
