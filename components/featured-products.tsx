@@ -10,25 +10,25 @@ export default function FeaturedProducts() {
       id: 1,
       name: "Diamond Eternity Ring",
       price: 2499,
-      image: "/Diamond_Eternity_Ring.webp?height=600&width=600",
+      image: "/Diamond_Eternity_Ring.webp",
     },
     {
       id: 2,
       name: "Sapphire Pendant",
       price: 1899,
-      image: "/elegant_pendant_necklace.webp?height=600&width=600",
+      image: "/elegant_pendant_necklace.webp",
     },
     {
       id: 3,
       name: "Pearl Drop Earrings",
       price: 899,
-      image: "/elegant_p.webp?height=600&width=600",
+      image: "/elegant_p.webp",
     },
     {
       id: 4,
       name: "Gold Bangle",
       price: 1299,
-      image: "/gold_bangle.webp?height=600&width=600",
+      image: "/gold_bangle.webp",
     },
   ];
 
@@ -70,4 +70,3 @@ export default function FeaturedProducts() {
     </section>
   )
 }
-

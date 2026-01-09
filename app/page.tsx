@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative h-[80vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-10" />
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/placeholder.svg"
           alt="Elegant jewelry collection"
           fill
           className="object-cover"
@@ -129,4 +129,3 @@ export default function Home() {
     </div>
   )
 }
-
