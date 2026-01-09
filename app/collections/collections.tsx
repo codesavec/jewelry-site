@@ -11,25 +11,25 @@ export default function CollectionsPage() {
         id: 1,
         name: "Diamond Eternity Ring",
         price: 2499,
-        image: "/Diamond_Eternity_Ring.webp?height=600&width=600",
+        image: "/Diamond_Eternity_Ring.webp",
       },
       {
         id: 2,
         name: "Sapphire Pendant",
         price: 1899,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 3,
         name: "Gold Bangle",
         price: 1299,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 4,
         name: "Pearl Drop Earrings",
         price: 899,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
     ],
     seasonal: [
@@ -37,25 +37,25 @@ export default function CollectionsPage() {
         id: 5,
         name: "Summer Opal Necklace",
         price: 1599,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 6,
         name: "Floral Diamond Brooch",
         price: 2199,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 7,
         name: "Emerald Tennis Bracelet",
         price: 3499,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 8,
         name: "Ruby Stud Earrings",
         price: 1099,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
     ],
     bridal: [
@@ -63,25 +63,25 @@ export default function CollectionsPage() {
         id: 9,
         name: "Diamond Solitaire Ring",
         price: 4999,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 10,
         name: "Pearl Wedding Set",
         price: 2899,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 11,
         name: "Sapphire Engagement Ring",
         price: 3799,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
       {
         id: 12,
         name: "Diamond Wedding Band",
         price: 1799,
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/placeholder.svg",
       },
     ],
   };
@@ -91,7 +91,7 @@ export default function CollectionsPage() {
       {/* Hero Section */}
       <section className="relative h-[40vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-10" />
-        <Image src="/placeholder.svg?height=800&width=1920" alt="Jewelry collections" fill className="object-cover" />
+        <Image src="/placeholder.svg" alt="Jewelry collections" fill className="object-cover" />
         <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Collections</h1>
           <p className="text-xl text-white/90 max-w-xl">Discover pieces that tell your unique story</p>
@@ -170,7 +170,7 @@ export default function CollectionsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=800&width=800"
+                src="/placeholder.svg"
                 alt="Custom jewelry design process"
                 fill
                 className="object-cover"
@@ -190,4 +190,3 @@ export default function CollectionsPage() {
     </div>
   )
 }
-

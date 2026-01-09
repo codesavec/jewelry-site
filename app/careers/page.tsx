@@ -41,7 +41,7 @@ export default function CareersPage() {
       <section className="relative h-[50vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-10" />
         <Image
-          src="/placeholder.svg?height=800&width=1920"
+          src="/placeholder.svg"
           alt="Elegance Jewelry team"
           fill
           className="object-cover"
@@ -221,7 +221,7 @@ export default function CareersPage() {
 
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/application_process.webp?height=1000&width=800"
+                src="/application_process.webp"
                 alt="Team working together"
                 fill
                 className="object-cover"

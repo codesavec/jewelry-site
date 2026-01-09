@@ -142,7 +142,7 @@ export default function BookAppointmentPage() {
       <section className="relative h-[40vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-10" />
         <Image
-          src="/placeholder.svg?height=800&width=1920"
+          src="/placeholder.svg"
           alt="Jewelry consultation"
           fill
           className="object-cover"

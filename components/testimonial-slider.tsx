@@ -14,7 +14,7 @@ export default function TestimonialSlider() {
         "The craftsmanship of my engagement ring is absolutely stunning. Every detail was perfectly executed, and the customer service was exceptional.",
       author: "Micheal Sharp",
       role: "Customer",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/placeholder.svg",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export default function TestimonialSlider() {
         "I've been collecting pieces from Elegant Jewelries for years. Their attention to detail and quality is unmatched in the industry.",
       author: "James Miller",
       role: "Collector",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/placeholder.svg",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export default function TestimonialSlider() {
         "The custom necklace they created for my anniversary exceeded all expectations. It's become a cherished family heirloom.",
       author: "Sam Johnson",
       role: "Customer",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/placeholder.svg",
     },
   ]
 
@@ -97,4 +97,3 @@ export default function TestimonialSlider() {
     </section>
   )
 }
-

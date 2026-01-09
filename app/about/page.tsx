@@ -8,7 +8,7 @@ export default function AboutPage() {
       <section className="relative h-[50vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-10" />
         <Image
-          src="/placeholder.svg?height=800&width=1920"
+          src="/placeholder.svg"
           alt="Our jewelry workshop"
           fill
           className="object-cover"
@@ -54,7 +54,7 @@ export default function AboutPage() {
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
                 // src="/logo.webp?height=1000&width=800"
-                src="/lizz.jpeg?height=400&width=400"
+                src="/lizz.jpeg"
                 alt="Our founder in the workshop"
                 fill
                 className="object-cover"
@@ -114,22 +114,22 @@ export default function AboutPage() {
               {
                 name: "Stewart Mildred",
                 role: "Founder & Creative Director",
-                image: "/lizz.jpeg?height=400&width=400",
+                image: "/lizz.jpeg",
               },
               {
                 name: "James Chen",
                 role: "Master Jeweler",
-                image: "/james.jpeg?height=400&width=400",
+                image: "/james.jpeg",
               },
               {
                 name: "Sofia Rodriguez",
                 role: "Design Lead",
-                image: "/sofia.jpg?height=400&width=400",
+                image: "/sofia.jpg",
               },
               {
                 name: "Michael Okafor",
                 role: "Production Manager",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/placeholder.svg",
               },
             ].map((member, index) => (
               <div key={index} className="text-center">
@@ -169,4 +169,3 @@ export default function AboutPage() {
     </div>
   );
 }
-
