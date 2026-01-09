@@ -18,7 +18,7 @@ export default function AboutPage() {
             Our Story
           </h1>
           <p className="text-xl text-white/90 max-w-xl">
-            Crafting elegance since 1985
+            Crafting elegance since 2005
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function AboutPage() {
                 A Legacy of Excellence
               </h2>
               <p className="text-neutral-700 mb-4">
-                Founded in 1985 by master jeweler Elizabeth Harmon, Elegance
+                Founded in 2005 by master Jeweler Mildred Stewart, Elegance
                 Jewelry began as a small atelier dedicated to creating bespoke
                 piecebg-white/10s for discerning clients. What started as a
                 passion project quickly gained recognition for its exceptional
@@ -53,7 +53,8 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=1000&width=800"
+                // src="/logo.webp?height=1000&width=800"
+                src="/lizz.jpeg?height=400&width=400"
                 alt="Our founder in the workshop"
                 fill
                 className="object-cover"
@@ -111,19 +112,19 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Elizabeth Harmon",
+                name: "Stewart Mildred",
                 role: "Founder & Creative Director",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/lizz.jpeg?height=400&width=400",
               },
               {
                 name: "James Chen",
                 role: "Master Jeweler",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/james.jpeg?height=400&width=400",
               },
               {
                 name: "Sofia Rodriguez",
                 role: "Design Lead",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/sofia.jpg?height=400&width=400",
               },
               {
                 name: "Michael Okafor",
